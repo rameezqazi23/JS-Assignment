@@ -331,4 +331,385 @@
 // Task 05
 
 
+//CHAPTER 9 - 11
+
+
+//Task 01
+// var city = prompt("Enter city name: ")
+// if(city=="Karachi"){
+//     alert("Welcome to the city of Lights")
+// }
+// else{
+//     alert("Good evening")
+// }
+
+//Task 02
+// var gender = prompt("Type your Gender ")
+// if(gender=="male"){
+//     alert("Good Morning Sir")
+// }
+// else if(gender=="female"){
+//     alert("Good Morning Ma'am")
+// }
+// else{
+//     alert("Incorrect input")
+// }
+
+//Task 03
+// var signalColor = prompt("Which traffic signal color do you seeing? ")
+// if(signalColor=="red" || signalColor=="Red"){
+//     alert("Must Stop!")
+// }
+// else if(signalColor=="yellow" || signalColor=="Yellow" ){
+//     alert("Ready to move")
+// }
+// else if(signalColor=="green" || signalColor=="Green"){
+//     alert("Move now")
+// }
+// else{
+//     alert("That's not belongs to traffic color")
+// }
+
+//Task 04
+// var fuel = prompt("Enter remaining fuel in the car ")
+// if(fuel < 0.25){
+//     alert("Please refill the fuel in your car")
+// }
+// else{
+//     alert("No warnings detected")
+// }
+
+//Task 05
+
+// a)
+// var a = 4; if (++a === 5){ alert("given condition for variable a is true"); }
+//Running properly
+
+// b)
+// var b = 82; if (b++ === 83){ alert("given condition for variable b is true"); }
+//Not Running
+
+// c)
+// var c = 12; 
+// if (c++ === 13) { alert("condition 1 is true"); } 
+// if (c === 13) { alert("condition 2 is true"); } 
+// if (++c < 14) { alert("condition 3 is true"); } 
+// if (c === 14) { alert("condition 4 is true"); }
+// Condition 2 & 4 are true
+
+// d)
+// var materialCost = 20000; var laborCost = 2000; var totalCost = materialCost + laborCost; 
+// if (totalCost === laborCost + materialCost){ alert("The cost equals"); }
+//The cost equals
+
+// e)
+// if (true){ alert("True"); } 
+// if (false){ alert("False"); }
+//True
+
+// f)
+// if("car" < "cat"){ alert("car is smaller than cat"); }
+//car is smallest than cat damn XD:
+
+//Task 06
+// var marksObtained = prompt("Enter obtained marks ")
+// var totalMarks = prompt("Enter Total marks ")
+// var percentage = ((marksObtained/totalMarks) * 100)
+// document.write("Marks Sheet".bold() +"<br>"+"<br>")
+// document.write("Total Marks: "+ totalMarks +"<br>")
+// document.write("Marks Obtained: "+ marksObtained +"<br>")
+// document.write("Percentage "+ percentage +"%<br>")
+// if(percentage>=80){
+//     document.write("Grade: A-one"+ "<br>")
+//     document.write("Remarks: Excellent")
+// }
+// else if(percentage>=70){
+//     document.write("Grade: A"+ "<br>")
+//     document.write("Remarks: Good")
+// }
+// else if(percentage>=60){
+//     document.write("Grade: B"+ "<br>")
+//     document.write("Remarks: You need to improve")
+// }
+// else if(percentage<60){
+//     document.write("Grade: Fail"+ "<br>")
+//     document.write("Remarks: Sorry")
+// }
+
+//Task 07
+// var secretNum = 5
+// var guess = prompt("Guess the secret number ")
+// if(guess==secretNum){
+//     alert("Bingo! Correct answer")
+
+// }
+// else if(guess==secretNum+1){
+//     alert("Close enough to the correct answer")
+// }
+// else if(guess>=10){
+//     alert("You are to high")
+// }
+// else{
+//     alert("incorrect input")
+// }
+
+//Task 08
+// var num = prompt("Enter a number ")
+// if(num%3==0){
+//     alert("This number is divisible by 3")
+// }
+// else{
+//     alert("This number is not divisible by 3")
+// }
+
+//Task 09
+// var num = prompt("Enter a number to check its even or odd ")
+// if(num%2==0){
+//     alert("Even number")
+// }
+// else{
+//     alert("Odd number")
+// }
+
+//Task 10
+// var temp = prompt("Input current temperature ")
+// if(temp>40){
+//     alert("it's too hot outside")
+// }
+// else if(temp>30){
+//     alert("The weather today is Normal")
+
+// }
+// else if(temp>20){
+//     alert("Todday's Weather is Cool")
+
+// }
+// else if(temp>=10){
+//     alert("OMG! Today's Weather is so Cool")
+
+// }
+
+//Task 11
+// var firstNum = prompt("Enter first number ")
+// var secondNum = prompt("Enter second number ")
+// var operation = prompt("Which operation do you apply to these numbers ")
+
+// if(operation==="+"){
+//     var performOperation = firstNum + secondNum
+//         alert("Sum is " + performOperation)
+// }
+// else if(operation==="-"){
+//     var performOperation = firstNum - secondNum
+//     alert("Subtraction is " + performOperation)
+// }
+// else if(operation==="*"){
+//     var performOperation = firstNum * secondNum
+//     alert("Multiplication is " + performOperation)
+// }
+// else if(operation==="/"){
+//     var performOperation = firstNum / secondNum
+//     alert("Division is " + performOperation)
+// }
+// else if(operation==="%"){
+//     var performOperation = firstNum % secondNum
+//     alert("Modulo is " + performOperation)
+// }
+// else{
+//     alert("You enter wrong character")
+// }
+
+
+//CHAPTER 12 - 13
+
+
+//Task 01
+// var A = 65, Z = 90, a = 97, z = 122
+// var num = prompt("Enter character to check the ASCII code")
+
+//Task 02
+// var num1 = prompt("Enter first number ")
+// var num2 = prompt("Enter second number ")
+// if(num1>num2){
+//     alert("First number is larger")
+// }
+// else if(num2>num1){
+//     alert("Second number is larger")
+// }
+// else{
+//     alert("Both are equal")
+// }
+
+//Task 03
+// var num = prompt("Enter a number ")
+
+// if(num>0){
+//     alert("It is a Positive integer")
+// }
+// else if(num<0){
+//     alert("It is a Negative integer")
+// }
+// else{
+//     alert("You entered Null value")
+// }
+
+//Task 04
+// var char = prompt("Enter a single character (length 1) ")
+// if(char=="A"||char=="a"||char=="E"||char=="e"||char=="I"||char=="i"||char=="O"||char=="o"||char=="U"||char=="u"){
+//     alert(true)
+// }
+// else{
+//     alert(false)
+// }
+
+//Task 05
+// var password = "vshell"
+// var userPassword = prompt("Enter your password ")
+
+// if(userPassword===""){
+//     alert("Please enter your password")
+// }
+// else if(userPassword===password){
+//     alert("Correct! The password you entered matches the original password")
+// }
+// else{
+//     alert("Incorrect password")
+// }
+
+//Task 06
+// var hour = 13; 
+// if (hour < 18) { 
+//     alert(greeting = "Good day") 
+// }
+// else{ 
+//     alert(greeting = "Good evening") 
+// }
+
+//Task 07
+// var time = 1900
+// if(time>=0000 && time<1200){
+//     alert("Good Morning!")
+// }
+// else if(time>=1200 && time<1700){
+//     alert("Good afternoon!")
+// }
+// else if(time>=1700 && time<2100){
+//     alert("Good evening!")
+// }
+// else if(time>=2100 && time<2359){
+//     alert("Good night")
+// }
+
+
+
+//CHAPTER 14 - 16
+
+
+//Task 01
+// var noOfstudents = prompt("How many students? ")
+// var array = []
+
+// for(var i=1; i<=noOfstudents; i++){
+//     array[i] = prompt("Enter name of student "+ i)
+
+// }
+// for(var j=1; j<i; j++){
+//     document.write(array[j]+ "<br>")
+// }
+
+//Task 02
+// var string = ["Rameez", "Ahmed", "Qazi"]
+// console.log(string)
+
+//Task 03
+// var number = [98547, 321054, 63694]
+// console.log(number)
+
+//Task 04
+// var booleanArray = [true, false]
+// console.log(booleanArray)
+
+//Task 05
+// var mixedArray = ["Rameez Ahmed Qazi",20,"Male",true]
+// console.log(mixedArray)
+
+//Task 06
+// var availEducation = ["SSC","HSC","BSC","BS","BCOM","MS","M.Phil.","PHD"]
+// document.write("Qualifications".bold() +"<br>"+"<br>")
+// for(i=0;i<availEducation.length;i++){
+//     document.write( [i+1]+") "+ availEducation[i] +"<br>")
+// }
+
+
+
+//Task 08
+// var studentNames = ["Michael","John","Tony"]
+// var studentScores = [320,230,480]
+// var percentage = ((studentScores[i] / 500) * 100)
+// for(var i=0;i<studentNames.length;i++){
+//     var percentage = ((studentScores[i] / 500) * 100)
+//     document.write("Score of "+ studentNames[i] + " is "+ studentScores[i] +". Percentage: "+ percentage +"% <br>")
+
+// }
+
+//Task 09
+// var colorNames = ["Red","Blue","Green"]
+// var numberOfcolors = prompt("How many colors do you add them? ")
+
+// for(var i=0;i<numberOfcolors;i++){
+//     var newColor = prompt("Add favourite colors in your color list: ")
+//     colorNames[i] = colorNames.push(newColor)
+
+// }
+// document.write(colorNames)
+
+
+//Task 10
+// var studentScores = ["320","230","480","120"]
+// document.write("Scores of Students: "+ studentScores +"<br>")
+// document.write("Ordered Scores of Students: "+ studentScores.sort() +"<br>")
+
+//Task 11
+// var cities = ["Karachi","Lahore","Islamabad","Quetta","Peshawar"]
+// var selectedCities = cities.slice(2, 4)
+// document.write("Cities List:".bold() +"<br>"+ cities +"<br>"+"<br>")
+// document.write("Selected Cities List:".bold() +"<br>"+ selectedCities)
+
+//Task 12
+// var arr = ["This","is","my","cat"]
+// var joinArr = arr.join()
+// document.write("Array:".bold() +"<br>"+ arr +"<br>"+"<br>")
+// document.write("String:".bold() +"<br>"+ arr.join(' '))
+
+//Task 13
+// var arr = ["Keyboard","Mouse","Printer","Monitor"]
+// document.write("Devices:".bold() +"<br>"+ arr +"<br> <br>")
+// for(var i=0; i<arr.length; i++){
+//     document.write("Out:".bold() +"<br>"+ arr[i] +"<br>")
+// }
+
+//Task 14
+// var arr = ["Keyboard","Mouse","Printer","Monitor"]
+// var leng = arr.length
+// document.write("Devices:".bold() +"<br>"+ arr +"<br> <br>")
+// for(var i=0; i<leng; i++){
+
+//     document.write("Out:".bold() +"<br>"+ arr.pop() +"<br>")
+// }
+
+//Task 15
+var phones = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"]
+document.write("<select> ")
+for (var i = 0; i < phones.length; i++) {
+    document.write("<option>" + phones[i] +"</option>")
+}
+document.write("</select>")
+
+
+
+
+//Task 12
+//Task 12
+
+
+
 
