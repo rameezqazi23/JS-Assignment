@@ -15,6 +15,7 @@
 
 // Task 05 in browser console
 
+//-----------------------------------------------------------------------------------
 
 // CHAPTER #02
 
@@ -60,6 +61,8 @@
 // var specialChar = "▬▬▬▬▬▬▬▬▬ஜ ۩۞۩ ஜ▬▬▬▬▬▬▬▬▬"
 // alert(specialChar)
 
+//-----------------------------------------------------------------------------------
+
 // CHAPTER #03
 
 // Task 01
@@ -82,6 +85,7 @@
 // var quantity = "5".bold()
 // document.write(visitorsName +" ordered "+ quantity + productTitle +"(s) on XYZ Clothing store")
 
+//-----------------------------------------------------------------------------------
 
 // CHAPTER 04
 
@@ -131,6 +135,7 @@
 // document.write("<br>")
 // document.write("Variable name should not be JS "+ e)
 
+//------------------------------------------------------------------------------------------------------
 
 // CHAPTER #05
 
@@ -280,6 +285,8 @@
 //                 " to last you until the ripe old age of "+ maxAge
 // )
 
+//--------------------------------------------------------------------------------------
+
 
 // CHAPTER #6 - 9
 
@@ -329,6 +336,8 @@
 // document.write(num +" * "+ ++num2 +" = " + num*num2 +"<br>")
 
 // Task 05
+
+//-----------------------------------------------------------------------------------
 
 
 //CHAPTER 9 - 11
@@ -518,6 +527,7 @@
 //     alert("You enter wrong character")
 // }
 
+//-----------------------------------------------------------------------------------
 
 //CHAPTER 12 - 13
 
@@ -599,7 +609,7 @@
 //     alert("Good night")
 // }
 
-
+//-----------------------------------------------------------------------------------------
 
 //CHAPTER 14 - 16
 
@@ -697,18 +707,110 @@
 // }
 
 //Task 15
-var phones = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"]
-document.write("<select> ")
-for (var i = 0; i < phones.length; i++) {
-    document.write("<option>" + phones[i] +"</option>")
-}
-document.write("</select>")
+// var phones = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"]
+// document.write("<select> ")
+// for (var i = 0; i < phones.length; i++) {
+//     document.write("<option>" + phones[i] +"</option>")
+// }
+// document.write("</select>")
+
+//--------------------------------------------------------------------------------------
+
+//CHAPTER 17 - 20
+
+
+//Task 01
+// var arr = [[],[],[],,...]
+
+//Task02
+// var arr = [[0,1,2,3],[1,0,1,2],[2,1,0,1]]
+// for(var i=0; i<arr.length; i++){
+//     document.write(arr[i] +"<br>")
+// }
+
+//Task 03
+// for(var i=1; i<11; i++){
+
+//     document.write(i +"<br> <br>")
+// }
+
+//Task 04
+// var num = prompt("Enter a number to show its multiplication table ")
+// var lengthOftable = prompt("Enter length of multiplication table ")
+// for(var i=1; i<=lengthOftable; i++){
+//     document.write(num +" x "+ i +" = "+ (num*i) +"<br>" )
+// }
+
+//Task 05
+// var fruits = ["apple", "banana", "mango", "orange", "strawberry"]
+// for (var i = 0; i < fruits.length; i++) {
+//     document.write(fruits[i] + "<br>")
+//     // document.write("Element at index "+ i + " is"+ fruits[i])
+// }
+// document.write("<br> <br>")
+// for (var i = 0; i < fruits.length; i++) {
+//     document.write("Element at index " + i + " is " + fruits[i] +"<br>")
+// }
+
+//Task 06
+// document.write("Counting:".bold() + "<br><br>")
+// for(var i=1; i<=15; i++){
+//     document.write(i +" , ")
+// }
+// document.write("<br><br> Reverse Counting:".bold() + "<br><br>")
+// for(var i=10; i>0; i--){
+//     document.write(i +" , ")
+// }
+// document.write("<br><br> Even:".bold() + "<br><br>")
+// for(var i=0; i<=20; i=i+2){
+//     document.write(i +" , ")
+// }
+// document.write("<br><br> Odd:".bold() + "<br><br>")
+// for(var i=1; i<=20; i=i+2){
+//     document.write(i +" , ")
+// }
+// document.write("<br><br> Series:".bold() + "<br><br>")
+// for(var i=2; i<=20; i=i+2){
+//     document.write(i +"k , ")
+// }
+
+//Task 07
+// var item = ["cake", "apple pie", "cookie", "chips", "patties"]
+// var search = prompt("Welcome to ABC bakery. What do you want to oredr Sir/Ma'am? ")
+
+// for(var i=0;i<item.length; i++){
+//     if(search === item[i]){
+//         alert(item[i] + " is available at index " + i + " in our bakery")
+//         break;
+//     }
+    
+// }
+// if(search != item[i]){
+//     alert("We are sorry "+ search + " is not available in our bakery")
+    
+// }
+
+//Task 08
+// var num = [24, 53, 78, 91, 12]
+// document.write("Array item is: "+ num +"<br>")
+// document.write("The Largest number is: "+ Math.max.apply(null, num))
+
+//Task 09
+// var num = [24, 53, 78, 91, 12]
+// document.write("Array item is: "+ num +"<br>")
+// document.write("The Largest number is: "+ Math.min.apply(null, num))
+
+//Task 10
+// for(var i=1; i<=20; i++){
+//     document.write(i*5 +" , ")
+// }
 
 
 
+//***********************************************fin************************************************************
 
-//Task 12
-//Task 12
+
+
 
 
 
